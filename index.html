@@ -2,27 +2,52 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>MindfulBytes</title>
+    <title>MindfulBytes Support</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
       body {
         font-family: Arial, sans-serif;
         text-align: center;
-        margin-top: 15%;
+        margin: 0;
+        padding: 0;
         background: #f7f7f7;
         color: #333;
       }
+      header {
+        background: #3366cc;
+        color: white;
+        padding: 2em 1em;
+      }
       h1 {
         font-size: 2.5em;
-        margin-bottom: 0.5em;
+        margin: 0.2em 0;
       }
       p {
         font-size: 1.2em;
       }
-      .coming-soon {
-        margin-top: 1em;
-        font-style: italic;
-        color: #888;
+      main {
+        padding: 2em 1em;
+        max-width: 700px;
+        margin: auto;
+      }
+      .support {
+        margin-top: 2em;
+        padding: 1.5em;
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      }
+      .support h2 {
+        margin-bottom: 0.5em;
+        color: #3366cc;
+      }
+      .support a {
+        color: #3366cc;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      .support a:hover {
+        text-decoration: underline;
       }
       .links {
         margin-top: 2em;
@@ -39,12 +64,28 @@
     </style>
   </head>
   <body>
-    <h1>MindfulBytes</h1>
-    <p>This is the landing page of the app.</p>
-    <div class="coming-soon">Under construction &mdash; coming soon!</div>
-    <div class="links">
-      <a href="privacy-policy.html">Privacy Policy</a>
-      <a href="terms-and-conditions.html">Terms and Conditions</a>
-    </div>
+    <header>
+      <h1>MindfulBytes</h1>
+      <p>Your companion for mindful screen time</p>
+    </header>
+
+    <main>
+      <div class="support">
+        <h2>Need Help?</h2>
+        <p>If you have any questions, issues, or feedback, we're here to help.</p>
+        <p>Email us at: <a href="mailto:support@mindfulbytes.app">support@mindfulbytes.app</a></p>
+      </div>
+
+      <div class="support">
+        <h2>Frequently Asked Questions</h2>
+        <p><strong>How do I reset my progress?</strong><br /> Go to Settings in the app and tap "Reset Progress".</p>
+        <p><strong>I didn’t get my reward, what should I do?</strong><br /> Please reach out to us with details so we can assist.</p>
+      </div>
+
+      <div class="links">
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms-and-conditions.html">Terms and Conditions</a>
+      </div>
+    </main>
   </body>
 </html>
